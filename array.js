@@ -1,0 +1,23 @@
+let fruits=["Mango","Apple","Banana"]
+console.log(fruits)
+console.log(fruits.length)
+console.log(fruits[2])
+fruits.push("Orange","Avocado")
+console.log(fruits)
+fruits.pop()
+console.log(fruits)
+fruits.unshift("kiwi")
+console.log(fruits)
+fruits.shift()
+console.log(fruits)
+let sliceArray=fruits.slice(1,4)
+fruits.slice(1,4)
+console.log(sliceArray)
+let spliceArray=fruits.splice(2,0,"guva")
+console.log(fruits)
+fruits.splice(2,3,"litchi")
+console.log(fruits)
+for(let i=0;i<=fruits.length;i++)
+{
+    console.log(fruits[i])
+}

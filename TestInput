@@ -1,0 +1,29 @@
+import * as readline from 'readline';
+
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+rl.question('Enter an alphabet: ', (answer) => {
+    switch(answer.toLowerCase()) {
+    case 'a':
+        console.log('a');
+        break;
+    case 'e':
+        console.log('e');
+        break;
+    case 'i':
+        console.log('i');
+        break;
+    case 'o':
+        console.log('o');
+        break;
+    case 'u':
+        console.log('u');
+        break;
+    default:
+        console.log('Not a Vowel!');
+    }
+    rl.close();
+});
